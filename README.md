@@ -6,7 +6,7 @@ The purpose of this app is to be used in business as a employes communication to
 
 ## To Do
 
-- improve desing
+- improve desing (much needed)
 - Add image upload
 - Add file upload
 - Add features like 'like,' 'ok,' etc. to messages
