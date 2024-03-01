@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "assest/css/default.css",
+    "inputFile": "assest/css/default.less"
+  },
+  {
+    "outputFile": "assest/css/chat.css",
+    "inputFile": "assest/css/chat.less"
+  }
+]
