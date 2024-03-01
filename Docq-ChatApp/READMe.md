@@ -16,4 +16,9 @@ The purpose of this app is to be used in business as a employes communication to
 - Add settings for users (edit image, email, password, name [excluding department])"
 - Add forgot password page
 
+<<<<<<< HEAD:Docq-ChatApp/READMe.md
 [Live](https://chatapp.mustafakenlic.dev)
+=======
+[Live](https://chatapp.mustafakenlic.dev)
+
+>>>>>>> e47aa15a44ea45c490e6181a264d9b19a4475763:README.md
