@@ -13,7 +13,7 @@ The purpose of this app is to be used in business as a personal communication to
 - Strengthen security
 - Add an admin panel for the owner (to create and edit users, view all chats between employees)
 - Add settings for users (edit image, email, password, name [excluding department])"
-
+- Add forgot password page
 
 [Live](https://chatapp.mustafakenlic.dev)
 
