@@ -2,7 +2,7 @@
 
 **This chat app was created as part of a job interview with Doc-Q.**
 
-The purpose of this app is to be used in business as a personal communication tool.
+The purpose of this app is to be used in business as a employes communication tool.
 
 ## To Do
 
