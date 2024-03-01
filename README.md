@@ -17,4 +17,3 @@ The purpose of this app is to be used in business as a personal communication to
 
 [Live](https://chatapp.mustafakenlic.dev)
 
-Happy Coding!
