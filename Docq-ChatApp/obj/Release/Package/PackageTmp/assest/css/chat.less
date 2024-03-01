@@ -1,0 +1,279 @@
+﻿@import "00_normalize.less";
+@import "00_varibles.less";
+@import "00_mixins.less";
+@import "00_general.less";
+
+#header {
+    border-bottom: @cizgi;
+
+    .left {
+        padding: 10px 0;
+
+        .logo {
+            height: 30px;
+
+            img {
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+
+    .right {
+        padding: 10px;
+        position: relative;
+    }
+
+
+    #mblMenu {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+
+        span {
+            display: block;
+            margin: 0;
+            margin-bottom: 4px;
+            border-radius: 4px;
+            height: 7px;
+            background: @siteAnaRenk;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.user {
+
+    img {
+        height: 30px;
+        width: auto;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    #userinfo {
+        height: 30px;
+        display: inline-block;
+        line-height: 1em;
+
+        p, strong {
+            margin: 0;
+        }
+
+        strong {
+            font-size: 1.2rem;
+        }
+
+        p {
+            color: @siteAnaRenk2;
+        }
+    }
+}
+
+#users {
+    height: 0;
+    max-height: calc(100vh - 100px);
+    overflow: hidden;
+    transition: height 2s;
+    background: @fon-renk;
+
+    ul {
+        width: 100%;
+        border: @cizgi;
+        padding: 10px;
+    }
+
+    &.active {
+        height: calc(100vh - 100px);
+        transition: height 2s;
+        overflow-y: auto;
+    }
+
+    .user {
+        border-bottom: @cizgi;
+        padding: 5px;
+        width: 100%;
+        cursor: pointer;
+        position: relative;
+
+        &:last-child {
+            border: none;
+        }
+
+        &.unread:after {
+            content: '';
+            position: absolute;
+            right: 5px;
+            top: 11px;
+            display: block;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: @siteAnaRenk2;
+        }
+    }
+}
+
+#chat {
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .left {
+        width: 200px;
+        display: inline-block;
+    }
+
+    .right {
+        width: calc(100vw - 221px);
+        display: inline-block;
+    }
+
+    #header {
+        height: 50px;
+        overflow: hidden;
+
+        #mblMenu {
+            display: none;
+        }
+
+        .right {
+            top: -10px;
+        }
+    }
+
+    #chatWrap {
+        .flex();
+        .flexRowDikeyKonumUst();
+    }
+
+    #users {
+        height: calc(100vh - 55px);
+        max-height: calc(100vh - 55px);
+        border-right: @cizgi;
+
+        ul {
+            border: none;
+            padding: 0;
+        }
+    }
+
+    #chat {
+        position: relative;
+        height: calc(100vh - 55px);
+        max-height: calc(100vh - 55px);
+        width: calc(100% - 201px);
+    }
+}
+
+
+#msglist {
+    position: absolute;
+    top: 0;
+    height: calc(100% - 150px);
+    border-bottom: @cizgi;
+    width: 100%;
+    overflow-y:auto;
+
+    #msglistwrap {
+        position: relative;
+        width: 100%;
+        /*height: 100%;*/
+        padding: 0;
+        margin: 0;
+    }
+
+    .message {
+        width: max-content;
+        max-width: 85%;
+        height: auto;
+        background-color: @fon-renk;
+        color: #fff;
+        padding: 20px;
+        position: relative;
+        margin: 40px;
+
+
+        &.send {
+            margin-left: auto;
+        }
+
+        &.send:after {
+            content: " ";
+            position: absolute;
+            right: -15px;
+            top: 15px;
+            border-top: 15px solid transparent;
+            border-right: none;
+            border-left: 15px solid @fon-renk;
+            border-bottom: 15px solid transparent;
+        }
+
+        &.recived:after {
+            content: " ";
+            position: absolute;
+            left: -15px;
+            top: 15px;
+            border-top: 15px solid transparent;
+            border-right: 15px solid @fon-renk;
+            border-left: none;
+            border-bottom: 15px solid transparent;
+        }
+    }
+}
+
+#msgtextbox {
+    background: @fon-renk;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+
+    #msgtextinput {
+        width: 100%;
+        border: none;
+        padding: 10px 20px;
+        font: 14px/22px "Lato", Arial, sans-serif;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        resize: none;
+    }
+
+    .fa-file-o, .fa-file-image-o {
+        font-size: 24px;
+        color: gray;
+        cursor: pointer;
+    }
+
+    #sendbtn {
+        float: right;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        background: @siteAnaRenk;
+        border-radius: 4px;
+        padding: 5px 10px;
+
+        &:hover {
+            background: @siteAnaRenkKoyu;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #msglist {
+        .message {
+            max-width: 500px;
+        }
+    }
+}

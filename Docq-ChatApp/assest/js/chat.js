@@ -31,11 +31,20 @@ userList.forEach(user =>
 
         // remove unread class
         document.getElementById("user" + userId).classList.remove("unread");
+
+
+        //change header
+        var headerUser = document.getElementById("headerusrinfo");
+
+        headerUser.innerHTML = user.innerHTML;
+        
     })
 );
 
 const getMessages = (userID) => {
 
+    // 
+    usersMenu.classList.remove("active");
     const url = "/chatapi.aspx/getmessages";
 
     const postData = {
@@ -69,7 +78,7 @@ const getMessages = (userID) => {
             for (let i = 0; i < responseData.length; i++) {
 
                 let SenderId = Number(responseData[i].senderid);
-                let Content = responseData[i].content;
+                let Content = htmlEncode(responseData[i].content);
                 
                 // if it is a send msg
                 if (SenderId === currentUserID) {
@@ -104,14 +113,10 @@ const getMessages = (userID) => {
 
 
 // SignalR
-
 $(function () {
     let chat = $.connection.chatHub;
 
     chat.client.boardcastMessage = function (senderId, receiverId, content) {
-        //let encodedsenderId = $('<div />').text(senderId).html();
-        //let encodedreceiverId = $('<div />').text(receiverId).html();
-        //let encodedcontent = $('<div />').text(content).html();
 
         /*console.log(`senderId : ${senderId} - receiverId : ${receiverId} - content : ${content} `);*/
 

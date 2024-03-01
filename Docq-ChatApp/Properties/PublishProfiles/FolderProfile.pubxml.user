@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>F:\0_Projects\0_ben\İş Başvuruları\DQC-Q FullStack\site\ftp</_PublishTargetUrl>
+    <History>True|2024-03-01T07:44:58.4274917Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assest/css/00_forms.less">
+      <publishTime>02/29/2024 00:02:32</publishTime>
+    </File>
+    <File Include="assest/css/00_mixins.less">
+      <publishTime>02/28/2024 09:21:51</publishTime>
+    </File>
+    <File Include="assest/css/00_normalize.less">
+      <publishTime>02/28/2024 09:22:12</publishTime>
+    </File>
+    <File Include="assest/css/00_varibles.less">
+      <publishTime>02/29/2024 07:21:13</publishTime>
+    </File>
+    <File Include="assest/css/chat.css">
+      <publishTime>03/01/2024 10:11:19</publishTime>
+    </File>
+    <File Include="assest/css/chat.less">
+      <publishTime>03/01/2024 10:11:18</publishTime>
+    </File>
+    <File Include="assest/css/chat.min.css">
+      <publishTime>03/01/2024 10:11:19</publishTime>
+    </File>
+    <File Include="assest/css/default.css">
+      <publishTime>02/29/2024 07:21:14</publishTime>
+    </File>
+    <File Include="assest/css/default.less">
+      <publishTime>02/29/2024 00:09:05</publishTime>
+    </File>
+    <File Include="assest/css/default.min.css">
+      <publishTime>02/29/2024 07:21:14</publishTime>
+    </File>
+    <File Include="assest/img/bg-min.png">
+      <publishTime>02/28/2024 23:48:58</publishTime>
+    </File>
+    <File Include="assest/img/logo-min.png">
+      <publishTime>02/29/2024 06:48:10</publishTime>
+    </File>
+    <File Include="assest/img/user-icon-min.png">
+      <publishTime>02/29/2024 07:09:49</publishTime>
+    </File>
+    <File Include="assest/js/chat.js">
+      <publishTime>03/01/2024 10:43:37</publishTime>
+    </File>
+    <File Include="assest/js/chat.min.js">
+      <publishTime>03/01/2024 10:21:38</publishTime>
+    </File>
+    <File Include="bin/chat.aspx.cdcab7d2.compiled">
+      <publishTime>03/01/2024 10:44:58</publishTime>
+    </File>
+    <File Include="bin/chatapi.aspx.cdcab7d2.compiled">
+      <publishTime>03/01/2024 10:44:58</publishTime>
+    </File>
+    <File Include="bin/chatapp.dll">
+      <publishTime>03/01/2024 10:44:58</publishTime>
+    </File>
+    <File Include="bin/chathubtest.aspx.cdcab7d2.compiled">
+      <publishTime>03/01/2024 10:44:58</publishTime>
+    </File>
+    <File Include="bin/default.aspx.cdcab7d2.compiled">
+      <publishTime>03/01/2024 10:44:58</publishTime>
+    </File>
+    <File Include="bin/Docq-ChatApp.dll">
+      <publishTime>03/01/2024 10:44:49</publishTime>
+    </File>
+    <File Include="bin/Docq-ChatApp.pdb">
+      <publishTime>03/01/2024 10:44:49</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>02/15/2024 13:37:38</publishTime>
+    </File>
+    <File Include="bin/EPPlus.Interfaces.dll">
+      <publishTime>11/21/2022 15:51:04</publishTime>
+    </File>
+    <File Include="bin/EPPlus.System.Drawing.dll">
+      <publishTime>11/21/2022 15:51:06</publishTime>
+    </File>
+    <File Include="bin/forgotpassword.aspx.cdcab7d2.compiled">
+      <publishTime>03/01/2024 10:44:58</publishTime>
+    </File>
+    <File Include="bin/FreeImageNET.dll">
+      <publishTime>06/22/2017 20:55:08</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.dll">
+      <publishTime>06/22/2017 20:55:08</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.Plugins.DiskCache.dll">
+      <publishTime>06/22/2017 20:55:18</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.Plugins.FreeImage.dll">
+      <publishTime>06/22/2017 20:55:08</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.Plugins.PdfRenderer.dll">
+      <publishTime>06/22/2017 20:55:08</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.Plugins.Security.dll">
+      <publishTime>06/22/2017 20:55:08</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.Plugins.Watermark.dll">
+      <publishTime>06/22/2017 20:55:18</publishTime>
+    </File>
+    <File Include="bin/ImageResizer.Plugins.WebP.dll">
+      <publishTime>06/22/2017 20:55:08</publishTime>
+    </File>
+    <File Include="bin/Imazen.WebP.dll">
+      <publishTime>06/22/2017 20:54:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>01/14/2022 05:40:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.pdb">
+      <publishTime>01/14/2022 05:32:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
+      <publishTime>01/14/2022 05:40:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.pdb">
+      <publishTime>01/14/2022 05:34:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>03/06/2023 01:41:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IO.RecyclableMemoryStream.dll">
+      <publishTime>12/12/2023 00:53:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>05/11/2022 02:31:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>01/13/2014 18:11:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>01/13/2014 18:11:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 10:09:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 14:19:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>02/15/2022 08:38:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>02/15/2022 08:38:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>02/15/2022 08:21:10</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>02/15/2022 08:38:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>02/15/2022 08:38:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>02/15/2022 08:21:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>02/15/2022 08:33:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>02/15/2022 08:36:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>02/15/2022 08:38:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>02/15/2022 08:33:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>02/15/2022 08:33:26</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>02/15/2022 08:34:50</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>02/15/2022 08:21:10</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>10/05/2021 03:47:54</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>10/05/2021 03:49:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.CurrentVersions.targets">
+      <publishTime>02/15/2022 08:33:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>02/15/2022 08:21:10</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>02/15/2022 08:21:10</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Buffers.dll">
+      <publishTime>02/19/2020 13:05:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>10/19/2020 21:37:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Memory.dll">
+      <publishTime>02/19/2020 13:05:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Numerics.Vectors.dll">
+      <publishTime>05/15/2018 16:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>10/19/2020 21:45:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>10/19/2020 21:46:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/29/2018 18:39:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>02/19/2020 13:05:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>02/15/2022 08:34:58</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>02/15/2022 08:34:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>02/15/2022 08:21:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>02/15/2022 08:38:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>02/15/2022 08:38:42</publishTime>
+    </File>
+    <File Include="bin/singup.aspx.cdcab7d2.compiled">
+      <publishTime>03/01/2024 10:44:58</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>02/19/2020 13:05:18</publishTime>
+    </File>
+    <File Include="bin/System.ComponentModel.Annotations.dll">
+      <publishTime>05/15/2018 16:29:36</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>05/08/2022 06:31:02</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>05/15/2018 16:29:44</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>10/23/2021 02:40:18</publishTime>
+    </File>
+    <File Include="Chat.aspx">
+      <publishTime>03/01/2024 10:44:56</publishTime>
+    </File>
+    <File Include="chatapi.aspx">
+      <publishTime>03/01/2024 10:44:56</publishTime>
+    </File>
+    <File Include="ChatHubTest.aspx">
+      <publishTime>03/01/2024 10:44:56</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/01/2024 10:44:56</publishTime>
+    </File>
+    <File Include="ForgotPassword.aspx">
+      <publishTime>03/01/2024 10:44:56</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>03/01/2024 10:44:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.4.js">
+      <publishTime>02/29/2024 20:44:49</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.4.min.js">
+      <publishTime>02/29/2024 20:44:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.4.3.js">
+      <publishTime>02/29/2024 20:44:51</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.4.3.min.js">
+      <publishTime>02/29/2024 20:44:51</publishTime>
+    </File>
+    <File Include="Singup.aspx">
+      <publishTime>03/01/2024 10:44:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/01/2024 10:44:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

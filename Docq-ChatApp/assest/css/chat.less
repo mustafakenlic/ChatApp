@@ -3,6 +3,10 @@
 @import "00_mixins.less";
 @import "00_general.less";
 
+body{
+    overflow:hidden;
+}
+
 #header {
     border-bottom: @cizgi;
 
@@ -122,6 +126,7 @@
 
 #chat {
     width: 100%;
+    height: calc(100vh - 104px);
 }
 
 @media screen and (min-width: 992px) {
@@ -176,11 +181,9 @@
 #msglist {
     position: absolute;
     top: 0;
-    height: calc(100% - 150px);
-    border-bottom: @cizgi;
+    overflow-y: auto;
     width: 100%;
-    overflow-y:auto;
-
+    height: calc(100vh - 250px);
     #msglistwrap {
         position: relative;
         width: 100%;
@@ -272,6 +275,13 @@
 
 @media screen and (min-width: 992px) {
     #msglist {
+        height: calc(100% - 150px);
+        border-bottom: @cizgi;
+
+        /*#msglistwrap {
+            height: auto;
+        }*/
+
         .message {
             max-width: 500px;
         }

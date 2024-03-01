@@ -69,3 +69,4 @@ F:\0_Projects\0_ben\İş Başvuruları\DQC-Q FullStack\site\Docq-ChatApp\Docq-Ch
 F:\0_Projects\0_ben\İş Başvuruları\DQC-Q FullStack\site\Docq-ChatApp\Docq-ChatApp\obj\Debug\Docq-ChatApp.csproj.CopyComplete
 F:\0_Projects\0_ben\İş Başvuruları\DQC-Q FullStack\site\Docq-ChatApp\Docq-ChatApp\obj\Debug\Docq-ChatApp.dll
 F:\0_Projects\0_ben\İş Başvuruları\DQC-Q FullStack\site\Docq-ChatApp\Docq-ChatApp\obj\Debug\Docq-ChatApp.pdb
+F:\0_Projects\0_ben\İş Başvuruları\DQC-Q FullStack\site\Docq-ChatApp\Docq-ChatApp\obj\Debug\Docq-ChatApp.csproj.AssemblyReference.cache

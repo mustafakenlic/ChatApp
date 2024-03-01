@@ -22,12 +22,14 @@
                 </figure>
             </div>
             <div class="right user">
-                <%--<img src="/assest/img/user-icon-min.png" alt="user icon"/>
+                <div id="headerusrinfo">
+                    <%--<img src="/assest/img/user-icon-min.png" alt="user icon"/>
                 <div id="userinfo">
                     <strong>Name</strong>
                     <p>Departmen</p>
                 </div>--%>
-                <asp:Literal ID="LtrActiveChat" runat="server"></asp:Literal>
+                    <asp:Literal ID="LtrActiveChat" runat="server"></asp:Literal>
+                </div>
                 <div id="mblMenu">
                     <span></span>
                     <span></span>

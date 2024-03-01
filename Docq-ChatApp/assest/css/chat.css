@@ -789,6 +789,9 @@ figcaption {
   font-weight: 600;
   color: red;
 }
+body {
+  overflow: hidden;
+}
 #header {
   border-bottom: solid 1px #e6e6e6;
 }
@@ -886,6 +889,7 @@ figcaption {
 }
 #chat {
   width: 100%;
+  height: calc(100vh - 104px);
 }
 @media screen and (min-width: 992px) {
   .left {
@@ -948,10 +952,9 @@ figcaption {
 #msglist {
   position: absolute;
   top: 0;
-  height: calc(100% - 150px);
-  border-bottom: solid 1px #e6e6e6;
-  width: 100%;
   overflow-y: auto;
+  width: 100%;
+  height: calc(100vh - 250px);
 }
 #msglist #msglistwrap {
   position: relative;
@@ -1032,6 +1035,13 @@ figcaption {
   background: #1a1a1a;
 }
 @media screen and (min-width: 992px) {
+  #msglist {
+    height: calc(100% - 150px);
+    border-bottom: solid 1px #e6e6e6;
+    /*#msglistwrap {
+            height: auto;
+        }*/
+  }
   #msglist .message {
     max-width: 500px;
   }

@@ -9,7 +9,8 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
-    <ProjectView>ShowAllFiles</ProjectView>
+    <ProjectView>ProjectFiles</ProjectView>
+    <NameOfLastUsedPublishProfile>F:\0_Projects\0_ben\İş Başvuruları\DQC-Q FullStack\site\Docq-ChatApp\Docq-ChatApp\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

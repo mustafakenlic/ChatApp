@@ -1,0 +1,150 @@
+﻿.fontBaslikNormal() {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+
+/* FLEX */
+.flex() {
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+}
+
+/*
+ *
+ * flex box elemanları YATAY olarak sıralanır
+ * Burada main-axis yatay oluyor ve bundan kaynaklı yatay konumda justify-content dikey konumda align-items kullanılıyor.
+ * Çünki flex içinde elemanın konumunu belirleyen bu özellikler sayfaya göre değil flex box ın yönüne göre işlem yapıyor.
+ */
+.flexYatay() {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.flexYatayAkiskan() {
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+/*yatay sıralanmış elemanları YATAY SOLA hizla*/
+.flexRowYatayKonumSol() {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+/*yatay sıralanmış elemanları YATAY ORTAYA hizla*/
+.flexRowYatayKonumOrta() {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+/*yatay sıralanmış elemanları YATAY SAĞA hizla*/
+.flexRowYatayKonumSag() {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.flexRowYatayKonumEsitAralik() {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.flexRowYatayKonumEsitAralikVeKenar() {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+/*yatay sıralanmış elemanları DİKEY ÜSTE hizla*/
+.flexRowDikeyKonumUst() {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+/*yatay sıralanmış elemanları DİKEY ORTALA hizla*/
+.flexRowDikeyKonumOrta() {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/*yatay sıralanmış elemanları DİKEY ORTALA hizla*/
+.flexRowDikeyKonumAlt() {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+/*
+ *
+ * flex box elemanları DİKEY olarak sıralanır
+ * Burada main-axis yatay oluyor ve bundan kaynaklı yatay konumda align-items dikey konumda justify-content kullanılıyor.
+ * Çünki flex içinde elemanın konumunu belirleyen bu özellikler sayfaya göre değil flex box ın yönüne göre işlem yapıyor.
+ *
+ */
+.flexDikey() {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+
+/*dikey sıralanmış elemanları YATAY ÜSTE hizla*/
+.flexColumnYatayKonumSol() {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+/*dikey sıralanmış elemanları YATAY ORTALA hizla*/
+.flexColumnYatayKonumOrta() {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/*dikey sıralanmış elemanları YATAY ORTALA hizla*/
+.flexColumnYatayKonumSag() {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+
+/*dikey sıralanmış elemanları DİKEY SOLA hizla*/
+.flexColumnDikeyKonumUst() {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+/*dikey sıralanmış elemanları DİKEY ORTAYA hizla*/
+.flexColumnDikeyKonumOrta() {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+/*dikey sıralanmış elemanları DİKEY SAĞA hizla*/
+.flexColumnDikeyKonumAlt() {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+/* FLEX SON */

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Singup.aspx" hash="fffffffb0ad25478" filehash="ffffe2ac371b94da" flags="110000" assembly="chatapp" type="ASP.singup_aspx">
+  <filedeps>
+    <filedep name="/Singup.aspx" />
+  </filedeps>
+</preserve>

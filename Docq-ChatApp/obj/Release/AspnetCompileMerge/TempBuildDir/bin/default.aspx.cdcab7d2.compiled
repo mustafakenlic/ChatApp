@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Default.aspx" hash="fffffffb0ad25478" filehash="ffffd04346c00c57" flags="110000" assembly="chatapp" type="ASP.default_aspx">
+  <filedeps>
+    <filedep name="/Default.aspx" />
+  </filedeps>
+</preserve>
