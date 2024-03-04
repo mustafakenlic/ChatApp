@@ -9,15 +9,15 @@ The purpose of this app is to be used in business as a employes communication to
 
 <h2>To Do</h2>
 
-improve desing (much needed)
-Add image upload
-Add file upload
-Add features like 'like,' 'ok,' etc. to messages
-Add 'unread' status at first page load (currently, it only shows when the user is online)
-Strengthen security
-Add an admin panel for the owner (to create and edit users, view all chats between employees)
-Add settings for users (edit image, email, password, name [excluding department])"
-Add forgot password page
+improve desing (much needed)<br>
+Add image upload<br>
+Add file upload<br>
+Add features like 'like,' 'ok,' etc. to messages<br>
+Add 'unread' status at first page load (currently, it only shows when the user is online)<br>
+Strengthen security<br>
+Add an admin panel for the owner (to create and edit users, view all chats between employees)<br>
+Add settings for users (edit image, email, password, name [excluding department])"<br>
+Add forgot password page<br>
 
 [Business Private Chat](https://chatapp.mustafakenlic.dev)
 
