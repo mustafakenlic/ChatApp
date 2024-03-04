@@ -1,7 +1,3 @@
-
-=======
-
-
 <div align="center">
 <h1>Business Private Chat</h1>
 
@@ -24,5 +20,5 @@ Add forgot password page<br>
 
 **⇃ Technologies ⇂**
 
-![](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)   ![](https://img.shields.io/badge/Asp.Net-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)   ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)   ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)   ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)   ![](https://img.shields.io/badge/Ecma%20Script-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)   ![](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)   ![](https://img.shields.io/badge/Asp.Net-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)   ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)   ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)   ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)   ![](https://img.shields.io/badge/Ecma%20Script-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)   ![](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)   ![](https://img.shields.io/badgeSignalR-5E5E5E?style=for-the-badge&logo=microsoft&logoColor=white)
 </div>
