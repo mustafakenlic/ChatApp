@@ -3,7 +3,7 @@
 
 The purpose of this app is to be used in business as a employes communication tool.
 
-<strong><big>To Do</big></strong>
+**To Do**
 
 improve desing (much needed)<br>
 Add image upload<br>
